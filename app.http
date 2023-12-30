@@ -1,0 +1,55 @@
+POST  http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "username":"christopher_phillips",
+    "password":"christy@123"
+    "name":"christy"
+    "gender":"male"
+}
+ 
+
+###
+post http://localhost:3000/login/
+Content-type :application/json
+
+{
+  "username":"chanti_y",
+  "password":"chanti@1234"
+
+}
+
+###
+ get   http://localhost:3000/user/tweets/feed
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+ ###
+ get   http://localhost:3000/user/tweets/
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+ ###
+
+  post   http://localhost:3000/user/tweets/
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+
+###
+get   http://localhost:3000/user/following/
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+###
+get   http://localhost:3000/user/followers/
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+###
+get   http://localhost:3000/user/tweets/7/
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+###
+get   http://localhost:3000/user/tweets/1/likes
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+###
+get   http://localhost:3000/user/tweets/2/replies
+ Authorization : Bearer eyJhbGciOijIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSL6TmNocmLzdG9waGVy3BoaWxSaXBzIiwiaWF0IjoxNjg0MjU4NjYxfQ.pdEaGzit6pSIn5wRS5sttE19nRUxkWamybHY_Y9sUA0
+
+

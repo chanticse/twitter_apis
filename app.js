@@ -209,8 +209,6 @@ app.get(
   async (request, response) => {
     try {
       const {tweetId} = request.params
-
-      // Get the replies for the specified tweetId
       const replies = await db.all(
         `
             SELECT user.username, reply.reply 
@@ -232,8 +230,6 @@ app.get(
       if (!tweetDetails) {
         return response.status(404).send('Tweet not found')
       }
-
-      // Send the response with tweet and replies
       const responseData = {
         tweet: {
           tweet: tweetDetails.tweet,
